@@ -1,0 +1,40 @@
+//MAIN CONTAINER
+.main { 
+	width:50%;
+	margin: 0 auto;
+	text-align:center;
+
+
+	//PROGRESS BAR STYLES OVERRIDES
+	.ui-progressbar {
+    	position: relative;
+	  }
+
+	.ui-widget-header {
+
+		background: #b3ffe6 none;
+
+	}
+
+	.red .ui-widget-header  {
+
+		background: red none;
+	}
+	
+	.progress_bar { 
+		margin:20px;
+	
+
+		.progress-label {
+	    position: absolute;
+	    left: 50%;
+	    top: 4px;
+	    font-weight: bold;
+	    text-shadow: 1px 1px 0 #fff;
+	}
+
+	}
+
+}
+
+
